@@ -1,0 +1,68 @@
+:root {
+    /* Colors */
+    --color-white: rgb(255, 255, 255);
+    --color-black: rgb(0, 0, 0);
+    --color-black-13: rgb(13, 13, 13);
+    --color-light-gray: rgb(246, 245, 243);
+    --color-gray: rgb(153, 153, 153);
+    --color-dark-gray: rgb(100, 100, 100);
+    --color-dark-gray-48: rgb(48, 48, 48);
+    --color-blue-gray: rgb(74, 83, 96);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border-collapse: collapse;
+    transition: 0.1s all ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Width Styles */
+.full-width {
+    width: 100%;
+}
+
+/* Flex container styles. */
+.flex {
+    display: flex;
+}
+.flex.row {
+    flex-flow: row wrap;
+}
+.flex.column {
+    flex-flow: column;
+}
+/* Justify content. */
+.flex.justify-center {
+    justify-content: center;
+}
+.flex.justify-sp-bt {
+    justify-content: space-between;
+}
+.flex.justify-sp-ard {
+    justify-content: space-around;
+}
+.flex.justify-start {
+    justify-content: flex-start;
+}
+.flex.justify-end {
+    justify-content: flex-end;
+}
+/* Align items. */
+.flex.align-center {
+    align-items: center;
+}
+.flex.align-start {
+    align-items: flex-start;
+}
+.flex.align-end {
+    align-items: flex-end;
+}
+
+/* Grid Styles */
+.grid {
+    display: grid;
+}

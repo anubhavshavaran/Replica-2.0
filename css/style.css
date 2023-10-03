@@ -1,0 +1,271 @@
+/* Header of the website */
+.header {
+    padding: 10px 50px;
+}
+.header .header-title {
+    font-weight: 500;
+    font-size: 24px;
+}
+.header .nav {
+    font-weight: 500;
+    font-size: 18px;
+    gap: 45px;
+}
+.header .nav h5 {
+    font-weight: 500;
+    font-size: 12px;
+}
+.header .signin-btn {
+    border: 1px solid var(--color-black);
+    border-radius: 25px;
+    padding: 7.5px 20px;
+    background: transparent;
+    font-size: 12px;
+}
+.header .signin-btn:hover {
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+/* Main Section */
+main {
+    padding: 65px 100px;
+}
+main .banner {
+    gap: 10px;
+}
+main .banner .row-1 {
+    gap: 120px;
+}
+main .banner .row-1 img {
+    width: 275px;
+    border-radius: 10px;
+}
+main .banner .row-1 .row-text {
+    text-align: center;
+    gap: 15px;
+}
+main .banner .row-1 .row-text h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+}
+main .banner .row-1 .row-text p {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--color-gray);
+    line-height: 25px;
+}
+
+main .banner .start-btn {
+    padding: 12.5px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-weight: 300;
+}
+main .banner .row-2 {
+    width: 100%;
+}
+main .banner .row-2 img {
+    border-radius: 10px;
+}
+main .banner .row-2 img:nth-child(1) {
+    width: 27.5%;
+}
+main .banner .row-2 img:nth-child(2) {
+    width: 17.5%;
+}
+main .banner .row-2 img:nth-child(3) {
+    width: 30%;
+}
+
+/* Companies Section */
+main .companies {
+    padding: 55px;
+    gap: 10px;
+}
+main .companies p {
+    color: var(--color-gray);
+    font-size: 12px;
+    font-weight: 400;
+}
+main .companies img {
+    width: 15%;
+}
+main .interfaces {
+    padding: 100px 40px;
+    gap: 15px;
+}
+main .interfaces .interface {
+    padding: 50px 75px;
+    background-color: var(--color-light-gray);
+    border-radius: 30px;
+}
+
+/* Working flow */
+main .working-flow {
+    padding: 50px 100px;
+    gap: 50px;
+}
+main .working-flow .title h3,
+main .paths-container h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+main .working-flow .title p,
+main .paths-container p {
+    color: var(--color-gray);
+    font-size: 12px;
+    padding-top: 10px;
+}
+main .working-flow .flows-container {
+    gap: 50px;
+}
+main .working-flow .flows-container .flows-count {
+    gap: 10px;
+}
+main .working-flow .flows-container .flows-count .count {
+    font-size: 24px;
+    padding: 20px 15px;
+    background-color: var(--color-light-gray);
+    border-radius: 30px;
+}
+main .working-flow .flows-container .flows-count .separator {
+    height: 125px;
+    width: 2px;
+    background-color: var(--color-light-gray);
+}
+main .working-flow .flows-container .flows-info {
+    gap: 115px;
+}
+main .working-flow .flows-container .flows-info .info h3 {
+    font-weight: 400;
+    color: var(--color-gray);
+    font-size: 12px;
+}
+main .working-flow .flows-container .flows-info .info h2 {
+    font-weight: 500;
+    font-size: 24px;
+}
+main .working-flow .flows-container .flows-info .info p {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-gray);
+}
+
+/* Paths */
+main .paths-container {
+    padding: 50px 100px 0px 100px;
+}
+main .paths-container .title {
+    padding-bottom: 55px;
+    border-bottom: 2px solid var(--color-light-gray);
+}
+main .paths-container .paths {
+    padding: 40px 0px;
+    border-bottom: 2px solid var(--color-light-gray);
+}
+main .paths-container .paths .path {
+    gap: 20px;
+}
+main .paths-container .paths .path:nth-child(2),
+main .paths-container .paths .path:nth-child(3) {
+    padding: 0px 35px;
+    border-left: 2px solid var(--color-light-gray);
+}
+main .paths-container .paths .path .path-title {
+    gap: 5px;
+}
+main .paths-container .paths .path .path-title p {
+    padding: 0;
+}
+main .paths-container .paths .path .path-title h3 {
+    font-size: 20px;
+}
+main .paths-container .paths .path .path-title div h5 {
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--color-gray);
+}
+main .paths-container .paths .path ul {
+    list-style: none;
+}   
+main .paths-container .paths .path ul li img {
+    width: 15px;
+}
+main .paths-container .paths .path ul li {
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+main .paths-container .paths .path button {
+    background-color: var(--color-black);
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+    color: var(--color-white);
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Footer */
+footer {
+    margin: 7.5px;
+    border-radius: 25px;
+    background-color: var(--color-black-13);
+    padding: 250px 225px 10px 225px;
+    /* height: 750px; */
+    gap: 250px;
+}
+footer .footer-text {
+    text-align: center;
+    gap: 20px;
+}
+footer .footer-text h1 {
+    color: var(--color-white);
+    font-weight: 300;
+    font-size: 36px;
+}
+footer .footer-text p {
+    color: var(--color-dark-gray);
+    font-weight: 400;
+    font-size: 18px;
+}
+footer .footer-text button {
+    background-color: var(--color-white);
+    border: none;
+    padding: 18.5px 250px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+footer .footer-bottom h1 {
+    font-size: 24px;
+    color: var(--color-white);
+    font-weight: 400;
+}
+footer .footer-bottom button {
+    background-color: var(--color-dark-gray-48);
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+footer .footer-bottom button img {
+    width: 25px;
+}
+footer .footer-bottom p {
+    color: var(--color-white);
+    font-weight: 400;
+    font-size: 16px;
+}
+footer .footer-bottom p b {
+    color: var(--color-blue-gray);
+    font-weight: 500;
+}
