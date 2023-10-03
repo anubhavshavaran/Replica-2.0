@@ -36,3 +36,9 @@ for (let i = 0; i < bookCallButtons.length; i++) {
         alert(alertMessage);
     });
 }
+
+// Scroll to top button.
+const scrollToTopButton = document.querySelector('#scroll-to-top');
+scrollToTopButton.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+});
